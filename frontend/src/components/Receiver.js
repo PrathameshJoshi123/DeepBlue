@@ -99,13 +99,13 @@ const Receiver = () => {
               <input type="text" id="warehouse" name="warehouse" placeholder="Enter warehouse details" required />
             </div>
 
-            <div className="modal" id="confirmModal">
+            {/* <div className="modal" id="confirmModal">
               <div className="modal-content">
                 <span className="close">&times;</span>
                 <h3>Your information has been submitted successfully!</h3>
                 <p>Thank you for your submission.</p>
               </div>
-            </div>
+            </div> */}
 
             <button type="submit"><FaPaperPlane /> Submit</button>
           </form>

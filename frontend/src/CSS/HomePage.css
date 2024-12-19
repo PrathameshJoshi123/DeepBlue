@@ -15,7 +15,6 @@
     padding: 0 15px;
 }
 
-
 /* Intro Section */
 .homepage-container .intro-box {
     background: linear-gradient(135deg, #5f6aff, #363e5f);
@@ -75,7 +74,9 @@
     margin-bottom: 1rem;
 }
 
-.homepage-container .card a {
+/* Styling for Link components inside .card */
+.homepage-container .card a, 
+.homepage-container .card .link {
     display: inline-block;
     background: var(--donor-primary);
     color: var(--white);
@@ -86,7 +87,9 @@
     transition: 0.3s ease;
 }
 
-.homepage-container .card a:hover {
+/* Hover effect for links */
+.homepage-container .card a:hover, 
+.homepage-container .card .link:hover {
     background: var(--white);
     color: var(--donor-primary);
 }

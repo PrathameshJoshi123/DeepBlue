@@ -7,6 +7,8 @@ import LoginPage from "./components/LoginPage";
 import Signup from "./components/Signup";
 import Donor from "./components/Donor";
 import Receiver from "./components/Receiver";
+import DeliveryPage from "./components/DeliveryPage";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/donor" element={<Donor />} />
           <Route path="/receiver" element={<Receiver />} />
+          <Route path="/delivery" element={<DeliveryPage />} />
+          <Route path="/about-us" element={<AboutUs />} />
         </Routes>
         <Footer/>
       </Router>
